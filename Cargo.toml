@@ -3,8 +3,8 @@
 members = [
     "programs/*"
 ]
-
 resolver = "2"
+readme = "README.md"
 [profile.release]
 overflow-checks = true
 lto = "fat"
