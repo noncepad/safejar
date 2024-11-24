@@ -1,8 +1,13 @@
 [package]
 name = "safejar"
-version = "0.1.1"
-description = "Onchain treasury management smart contract"
-edition = "2021"
+version = "0.1.1" # Semantic version
+authors = ["Joel De Jesus <joel@noncepad.com>"] # Optional for newer Cargo versions
+edition = "2021" # Rust edition
+description = "A treasury management program for Solana."
+license = "MIT" # Choose a license or specify one
+repository = "https://github.com/noncepad/safejar" # Optional, if hosted on GitHub
+keywords = ["treasury", "solana"] # Optional, for discoverability
+categories = ["fintech"] # Optional, see: https://cr
 
 [lib]
 crate-type = ["cdylib", "lib"]
